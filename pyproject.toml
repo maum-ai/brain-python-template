@@ -1,0 +1,19 @@
+[tool.ruff]
+exclude = ["third_party"]
+target-version = "py39"
+line-length = 120
+indent-width = 4
+
+[tool.ruff.lint]
+select = ["C", "E", "F", "I", "W"]
+ignore = ["C901", "E501", "E741", "F402", "F405", "F841", "F731"]
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "lf"

@@ -16,27 +16,28 @@ Let's keep our code neat and tidy! 🧹
 **Other Conventions 📝:**
 
 1. **Type Annotations**: Please include type annotations for intuitive and clear codes (your editor may help you more!).
-Here's an example:
+   Here's an example:
 
-  ```python
-  def add(a: int, b: int) -> int:
-      return a + b
-  ```
+   ```python
+   def add(a: int, b: int) -> int:
+       return a + b
+   ```
 
-2. **Comments and Docstrings**: Make sure to add comments and docstrings. For example:
+2. **Comments and Docstrings**: Make sure to add comments and docstrings.
+   For example:
 
-  ```python
-  def greet(name: str) -> str:
-      """Return a greeting message for the given name.
+   ```python
+   def greet(name: str) -> str:
+       """Return a greeting message for the given name.
 
-      Args:
-          name (str): The name to greet.
+       Args:
+           name (str): The name to greet.
 
-      Returns:
-          str: Greeting message.
-      """
-      return f"Hello, {name}!"
-  ```
+       Returns:
+           str: Greeting message.
+       """
+       return f"Hello, {name}!"
+   ```
 
 3. **Dependencies**: Record your dependencies in `requirements.txt` 📄
 

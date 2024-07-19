@@ -1,22 +1,53 @@
-# README
+**✨ Project Template Repository Guide ✨**
 
-This template is about using Ruff to adhere team's Python convention.
+Hello Brain team! 👋
 
-### What is this repository for?
+Here is a quick reminder on how to use our project template repository.
+Let's make our code clean and consistent! 😃
 
-* Quick summary  
+**Usage Instructions 📚:**
 
-This repository is for Python repository template to use in maum.ai Brain.
+1. **Lint your code**: Run `ruff check`
+2. **Format your code**: Run `ruff format`
 
-* How to use Ruff: Quick Guide  
+Let's keep our code neat and tidy! 🧹
 
-```bash
-pip3 install ruff
-vi pyproject.toml # write pyproject
+**Other Conventions 📝:**
 
-# Choose between right below two options
-ruff check # no fix just verify 
-ruff check --fix # automatic fix which fix are available 
+1. **Type Annotations**: Please include type annotations for intuitive and clear codes (your editor may help you more!).
+Here's an example:
 
-ruff format # run formatter to reformat files 
+```python
+def add(a: int, b: int) -> int:
+    return a + b
 ```
+
+2. **Comments and Docstrings**: Make sure to add comments and docstrings. For example:
+
+```python
+def greet(name: str) -> str:
+    """Return a greeting message for the given name.
+
+    Args:
+        name (str): The name to greet.
+
+    Returns:
+        str: Greeting message.
+    """
+    return f"Hello, {name}!"
+```
+
+3. **Dependencies**: Record your dependencies in `requirements.txt` 📄
+
+4. **README**: Write a clear and concise `README` file 📘
+
+5. **Histories**: Update the `CHANGELOG` when releasing new versions 📈
+
+For any other guidelines, please refer to the [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html).
+Let's adhere to these standards to maintain high-quality code. 🙏
+
+Always appreciate for your dedicated effors and happy hacking! 💻✨
+
+---
+
+Copyright (c) 2024 maum.ai Brain

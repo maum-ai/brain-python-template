@@ -10,7 +10,7 @@ Let's make our code clean and consistent! 😃
 1. **Install Ruff**: Run `pip install ruff`
 2. **Lint your code**: Run `ruff check (--fix)`
 3. **Format your code**: Run `ruff format`
-4. **For vscode users**: Use ruff in vscode marketplace
+4. **For VSCode users**: Use ruff in [vscode marketplace](https://github.com/astral-sh/ruff-vscode?tab=readme-ov-file)
 
 Let's keep our code neat and tidy! 🧹
 

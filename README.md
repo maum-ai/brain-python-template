@@ -10,6 +10,7 @@ Let's make our code clean and consistent! 😃
 1. **Install Ruff**: Run `pip install ruff`
 2. **Lint your code**: Run `ruff check (--fix)`
 3. **Format your code**: Run `ruff format`
+4. **For vscode users**: Use ruff in vscode marketplace
 
 Let's keep our code neat and tidy! 🧹
 
@@ -19,24 +20,24 @@ Let's keep our code neat and tidy! 🧹
    Here's an example:
 
    ```python
-   def add(a: int, b: int) -> int:
-       return a + b
+    def add(a: int, b: int) -> int:
+        return a + b
    ```
 
 2. **Comments and Docstrings**: Make sure to add comments and docstrings.
    For example:
 
    ```python
-   def greet(name: str) -> str:
-       """Return a greeting message for the given name.
+    def greet(name: str) -> str:
+        """Return a greeting message for the given name.
 
-       Args:
-           name (str): The name to greet.
+        Args:
+            name (str): The name to greet.
 
-       Returns:
-           str: Greeting message.
-       """
-       return f"Hello, {name}!"
+        Returns:
+            str: Greeting message.
+        """
+        return f"Hello, {name}!"
    ```
 
 3. **Dependencies**: Record your dependencies in `requirements.txt` 📄

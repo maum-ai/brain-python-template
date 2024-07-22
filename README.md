@@ -8,9 +8,9 @@ Let's make our code clean and consistent! 😃
 **Usage Instructions 📚:**
 
 1. **Install Ruff**: Run `pip install ruff`
-2. **Lint your code**: Run `ruff check (--fix)`
+2. **Lint your code**: Run `ruff check --fix`
 3. **Format your code**: Run `ruff format`
-4. **For VSCode users**: Use ruff in [vscode marketplace](https://github.com/astral-sh/ruff-vscode?tab=readme-ov-file)
+4. **For VSCode users**: Install Ruff plugin from [VSCode Marketplace](https://github.com/astral-sh/ruff-vscode?tab=readme-ov-file)
 
 Let's keep our code neat and tidy! 🧹
 
@@ -47,9 +47,9 @@ Let's keep our code neat and tidy! 🧹
 5. **Versioning**: Update the `CHANGELOG.md` when releasing new versions 📈
 
 For any other guidelines, please refer to the [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html).
-Let's adhere to these standards to maintain high-quality code. 🙏
+Let's adhere to these standards to maintain high-quality code! 🙏
 
-Always appreciate for your dedicated effors and happy hacking! 💻✨
+Always appreciate for your dedicated effors! Happy hacking! 💻✨
 
 ---
 
